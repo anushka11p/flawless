@@ -1,18 +1,49 @@
-# React + Vite
+# Flawless 🖤
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A luxury fashion e-commerce web app built with React + Vite.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- **Hero Section** — Full-screen editorial landing with dual image panels and layered typography
+- **Product Grid** — Filterable, sortable catalogue with category, price range, and badge filters
+- **Smart Filters** — Filter by category, Sale items, New In drops, and price range
+- **Shopping Bag** — Slide-in cart with live item count, quantity tracking, and total
+- **Checkout Flow** — Smooth checkout panel with order confirmation
+- **Navbar** — Sticky nav with scroll-to-section and filter shortcuts
 
-## React Compiler
+## Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- React 18
+- Vite
+- Plain CSS-in-JS (inline styles)
+- Google Fonts — Cormorant Garamond + DM Sans
 
-## Expanding the ESLint configuration
+## Getting Started
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-# flawless
-# flawless
+```bash
+npm install
+npm run dev
+```
+
+Then open [http://localhost:5173](http://localhost:5173)
+
+## Project Structure
+
+```
+![alt text](image.png)
+
+```
+
+## Color Palette
+
+![alt text](image-1.png)
+
+| Role | Color |
+|------|-------|
+| Primary | `#6b0f1a` — deep crimson |
+| Text | `#e8ddd0` — warm off-white |
+| Accent | `rgba(236, 193, 230, 0.95)` — dusty pink |
+| Dark | `#2c2418` — near black |
+
+---
+
